@@ -796,12 +796,8 @@ ul {
 
 .contact-info-map {
     position: relative;
-    /* Ensure height is sufficient to show content and map */
     min-height: 450px;
 }
-
-/* Set the Qatar map image as a background for the left column */
-/* We use a large, faint image that acts as a visual backdrop */
 .contact-info-map::before {
     content: "";
     position: absolute;
@@ -809,7 +805,7 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/imgi_73_contact-bg.png');
+    background-image: url('/images/imgi_73_contact-bg.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left center;
@@ -1079,7 +1075,7 @@ ul {
     line-height: 1.6;
 }
 
-/* -------------------------------------- */
+
 
 
 /* --- About Tissco --- */
